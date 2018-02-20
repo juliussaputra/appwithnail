@@ -8,7 +8,7 @@ import MobileCoreServices
     @objc(login:)
     func login(command: CDVInvokedUrlCommand){
         let item = "org.moodle.moodle_mobile_app"
-        let singleton = true
+        let singleton = false
         self.command = command
         print("IN PLUGIN SWIFT , singleton : \(singleton)")
         
@@ -44,7 +44,9 @@ import MobileCoreServices
                 do{
                     let dataSource = try JSONSerialization.jsonObject(with: jsonData, options: []) as? [String : Any]
                     print("DATA SOURCE : \(dataSource!)")
-                    let result = CDVPluginResult.init(status: CDVCommandStatus_OK, messageAs: dataSource!["api_key"] as! String)
+                    let key = dataSource?.keys.first
+                    let dict = dataSource![key!] as! [String : Any]
+                    let result = CDVPluginResult.init(status: CDVCommandStatus_OK, messageAs: dict["api_key"] as! String)
                     self.commandDelegate.send(result, callbackId: self.command?.callbackId)
                     
                 } catch{

@@ -1,44 +1,44 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {
-      "config.xml": {
-        "parents": {
-          "/*": [
-            {
-              "xml": "<feature name=\"NailPluginSwift\"><param name=\"ios-package\" onload=\"true\" value=\"NailPluginSwift\" /></feature>",
-              "count": 1
-            }
-          ]
-        }
-      }
-    }
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "ch.htwchur.appwithnail"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "ch.htwchur.nailpluginswift": {
-      "PACKAGE_NAME": "ch.htwchur.appwithnail"
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NailPluginSwift\"><param name=\"ios-package\" onload=\"true\" value=\"NailPluginSwift\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ch.htwchur.appwithnail"
+        },
+        "ch.htwchur.nailpluginswift": {
+            "PACKAGE_NAME": "ch.htwchur.appwithnail"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "ch.htwchur.nailpluginswift.nailpluginswift",
+            "file": "plugins/ch.htwchur.nailpluginswift/www/nailpluginswift.js",
+            "pluginId": "ch.htwchur.nailpluginswift",
+            "clobbers": [
+                "NailPluginSwift"
+            ],
+            "runs": true
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.3.3",
+        "ch.htwchur.nailpluginswift": "0.0.1"
     }
-  },
-  "dependent_plugins": {},
-  "modules": [
-    {
-      "id": "ch.htwchur.nailpluginswift.nailpluginswift",
-      "file": "plugins/ch.htwchur.nailpluginswift/www/nailpluginswift.js",
-      "pluginId": "ch.htwchur.nailpluginswift",
-      "clobbers": [
-        "NailPluginSwift"
-      ],
-      "runs": true
-    }
-  ],
-  "plugin_metadata": {
-    "cordova-plugin-whitelist": "1.3.3",
-    "ch.htwchur.nailpluginswift": "0.0.1"
-  }
 }

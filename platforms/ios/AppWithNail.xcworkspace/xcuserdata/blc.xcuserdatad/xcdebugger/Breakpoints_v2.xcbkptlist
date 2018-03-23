@@ -38,16 +38,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
-            timestampString = "540830744.9973561"
+            timestampString = "543499584.691092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "login(command:)"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "NailPluginSwift"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.691463"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "authorizeProtocols2(command:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,13 +74,445 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
-            timestampString = "540830744.9976619"
+            timestampString = "543499584.691663"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "authorizeProtocols2(command:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.NailPluginSwift.authorizeProtocols2(command: __ObjC.CDVInvokedUrlCommand) -&gt; ()"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+                  timestampString = "543416556.488915"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "1856">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in AppWithNail.NailPluginSwift.authorizeProtocols2(command: __ObjC.CDVInvokedUrlCommand) -&gt; ()"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+                  timestampString = "543416556.490571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.6918581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "extractDataFromExtension(item:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.NailPluginSwift.extractDataFromExtension(item: __ObjC.NSExtensionItem) -&gt; ()"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+                  timestampString = "543414973.159799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.NSSecureCoding&gt;, Swift.ImplicitlyUnwrappedOptional&lt;Swift.Error&gt;) -&gt; () in AppWithNail.NailPluginSwift.extractDataFromExtension(item: __ObjC.NSExtensionItem) -&gt; ()"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+                  timestampString = "543414973.161347"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.692045"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "extractDataFromExtension(item:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+            timestampString = "543498035.485196"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "parseEntry(jsonDict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.692258"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "getEndpointUrl(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../www/js/index.js"
+            timestampString = "543424746.020208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+            timestampString = "543498035.485621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(inputData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.IdNativeAppIntegrationLayer.__allocating_init(inputData: Foundation.Data) -&gt; AppWithNail.IdNativeAppIntegrationLayer"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+                  timestampString = "543416556.5093319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.IdNativeAppIntegrationLayer.init(inputData: Foundation.Data) -&gt; AppWithNail.IdNativeAppIntegrationLayer"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+                  timestampString = "543416556.511252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+            timestampString = "543498035.4858069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "init(serializedStr:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.IdNativeAppIntegrationLayer.__allocating_init(serializedStr: Swift.String) -&gt; AppWithNail.IdNativeAppIntegrationLayer"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+                  timestampString = "543499584.868958"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppWithNail.IdNativeAppIntegrationLayer.init(serializedStr: Swift.String) -&gt; AppWithNail.IdNativeAppIntegrationLayer"
+                  moduleName = "AppWithNail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blc/Documents/GitHub/appwithnail/platforms/ios/AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+                  timestampString = "543499584.870527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+            timestampString = "543498035.485985"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "parseEntry(jsonDict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.6925189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "getEndpointUrl(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.692714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "getEndpointUrl(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.692902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "NailPluginSwift"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.693094"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "getServiceUrl(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.693282"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "getServiceUrl(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/IdNativeAppIntegrationLayer.swift"
+            timestampString = "543498035.4871041"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "clearAllService()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.69349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "clearAllServices(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.693679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "clearAllServices(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.693858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "removeService(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.6940449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "serialize(commandItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppWithNail/Plugins/ch.htwchur.nailpluginswift/NailPluginSwift.swift"
+            timestampString = "543499584.694227"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "serialize(commandItem:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

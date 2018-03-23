@@ -1,18 +1,18 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "ch.htwchur.appwithnail"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "ch.htwchur.nailpluginswift": {
-      "PACKAGE_NAME": "ch.htwchur.appwithnail"
-    }
-  },
-  "dependent_plugins": {}
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ch.htwchur.appwithnail"
+        },
+        "ch.htwchur.nailpluginswift": {
+            "PACKAGE_NAME": "ch.htwchur.appwithnail"
+        }
+    },
+    "dependent_plugins": {}
 }

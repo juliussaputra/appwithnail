@@ -1,18 +1,18 @@
 {
-  "cordova-plugin-whitelist": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-whitelist@1"
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "ch.htwchur.nailpluginswift": {
-    "source": {
-      "type": "local",
-      "path": "/Users/blc/Documents/GitHub/appwithnail/node_modules/nail-plugin-swift"
-    },
-    "is_top_level": true,
-    "variables": {}
-  }
+    "ch.htwchur.nailpluginswift": {
+        "source": {
+            "type": "local",
+            "path": "../nailpluginswift"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
 }

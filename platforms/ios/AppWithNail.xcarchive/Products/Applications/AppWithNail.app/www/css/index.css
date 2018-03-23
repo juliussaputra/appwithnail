@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-* {
+ * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
@@ -50,7 +50,7 @@ body {
     background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
-    top:50%;
+    top:20%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
     text-align:center;
@@ -114,10 +114,24 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-#loginbutton{
+#loginbutton1, #loginbutton2, #getServiceNames, #getToken, #getEndpointURL, #getDisplayName, #getServiceUrl, #removeService, #clearAllServices, #serialize, #parse{
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   margin: 20px 50px;
+}
+
+#textID{
+    text-align: center;
+    font-size: 15px;
+    max-width: 300px;
+    overflow-wrap: break-word;
+
+}
+
+.deviceready{
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 300px;
 }

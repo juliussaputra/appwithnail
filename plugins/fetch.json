@@ -7,10 +7,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "ch.htwchur.nailpluginswift": {
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "ch.eduid.provacordovaplugin.EduIDPlugin": {
         "source": {
             "type": "local",
-            "path": "../nailpluginswift"
+            "path": "../EduIDPlugin"
         },
         "is_top_level": true,
         "variables": {}

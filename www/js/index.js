@@ -78,7 +78,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild);
       }
-      NailPluginSwift.authorizeProtocols(["org.moodle.moodle_mobile_app"],
+      EduIDPlugin.authorizeProtocols(["org.moodle.moodle_mobile_app"],
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -88,6 +88,12 @@
           para.appendChild(node);
           para.style.textAlign = "center";
           para.style.right = "10%";
+        },
+        function(msg){
+          document.getElementById('deviceready').querySelector('.received').innerHTML = "NO SERVICES";
+          var para = document.getElementById("textID");
+          var node = document.createTextNode("No Services Access");
+          para.appendChild(node);
         }
       );
     },
@@ -99,7 +105,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.authorizeProtocols2(["org.moodle.moodle_mobile_app"],
+      EduIDPlugin.authorizeProtocols2(["org.moodle.moodle_mobile_app"],
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -107,7 +113,13 @@
           //var node = document.createTextNode("api_key : " + msg );
           var node = document.createTextNode(msg);
           para.appendChild(node);
-          }
+          },
+        function(msg){
+          document.getElementById('deviceready').querySelector('.received').innerHTML = "NO SERVICES";
+          var para = document.getElementById("textID");
+          var node = document.createTextNode("No Services Access");
+          para.appendChild(node);
+        }
       );
 
     },
@@ -119,7 +131,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.serviceNames(
+      EduIDPlugin.serviceNames(
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -143,7 +155,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.getEndpointUrl("Wall-E", "org.moodle.moodle_mobile_app",
+      EduIDPlugin.getEndpointUrl("Wall-E", "org.moodle.moodle_mobile_app",
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -162,7 +174,7 @@
         para.removeChild(para.firstChild)
       }
 
-      NailPluginSwift.getDisplayName("Wall-E",
+      EduIDPlugin.getDisplayName("Wall-E",
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -181,7 +193,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.getServiceToken("Wall-E", "org.moodle.moodle_mobile_app",
+      EduIDPlugin.getServiceToken("Wall-E", "org.moodle.moodle_mobile_app",
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -199,7 +211,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.getServiceUrl("Wall-E",
+      EduIDPlugin.getServiceUrl("Wall-E",
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           console.log("MSG : " + msg);
@@ -224,7 +236,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.removeService("Wall-E",
+      EduIDPlugin.removeService("Wall-E",
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           var para = document.getElementById("textID");
@@ -240,7 +252,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.clearAllServices(
+      EduIDPlugin.clearAllServices(
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           var para = document.getElementById("textID");
@@ -256,7 +268,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.serialize(
+      EduIDPlugin.serialize(
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           var para = document.getElementById("textID");
@@ -273,7 +285,7 @@
       while(para.firstChild){
         para.removeChild(para.firstChild)
       }
-      NailPluginSwift.parse( serviceSpec,
+      EduIDPlugin.parse( serviceSpec,
         function(msg){
           document.getElementById('deviceready').querySelector('.received').innerHTML = "PLUGIN SUCCESSFUL";
           var para = document.getElementById("textID");
